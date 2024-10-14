@@ -10,7 +10,7 @@ const cors=require('cors')
 const port=8000
 app.use(express.json())
 const coursOption={
-origin:"https://new-data-7i5b.onrender.com",
+origin:"https://new-data-1.onrender.com",
 method:"GET,POST,PUT,DELETE,PATCH,HEAD   ",
 credentials:true,
 }
